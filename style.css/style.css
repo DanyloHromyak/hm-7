@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Kaushan Script';
+    font-weight: normal;
+    font-size: 400;
+    src: url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+}
+@font-face {
+    font-family: 'Montserrat' ;
+    font-style: normal;
+    font-size: 400;
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-family:  normal;
+    font-size: 300;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+}
+/* global styles */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+    line-height: 22px;
+}
+body {
+    font-family: 'Roboto', serif;
+    color: #B6B6B6;
+    font-size: 1em;
+}
+h2, h3, .uptitle {
+    color: #333;
+}
+.uptitle {
+    font-family: 'Kaushan Script', serif;   
+}
+h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+}
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+}
+h3,
+.menu-item {
+    font-size: 0.93em;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.section {
+    text-align: center;
+}
+.section-title {
+    text-align: center;
+}
+.section-title h2 {
+    margin: 20px 0 40px;
+    text-transform: uppercase;
+}
+hr {
+    display: inline-block;
+    width: 60px;
+    height: 4px;
+    background: pink;
+}
+ /* header */
+.header {
+    padding: 17px 0;
+    font-family: 'Montserrat', serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo,
+.menu-link {
+    color: #95E1D3;
+}
+.logo, h2 {
+    font-size: 2em;
+}
+.menu-list {
+    display: flex;
+}
+.menu-item {
+    padding-left: 55px;
+}
+
+/* services */
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.services-item {
+    width: 33.33%;
+    padding: 0 35px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-start;
+}
+.services-item:nth-child(3n) {
+    margin-bottom: 100px;
+}
+.services-item img {
+    margin-right: 20px;
+}
+/* man */
+.man {
+    display: flex;
+    justify-content: ;
+}
+.men {
+    display: flex;
+    position: absolute;
+    justify-content: ;
+    margin: 20px 300px;
+}
+.man h2  {
+    font-family: 'Monseratt', serif;
+    font-weight: 400;
+}
+.man h3 {
+    font-family: 'Roboto', serif;
+    font-style: italic;
+    font-weight: 300;
+    color: #B6B6B6;
+}
+
+/* background: linear-gradient(180deg, rgba(239, 139, 138, 0.8) 0%, rgba(229, 207, 130, 0.8) 100%); */
