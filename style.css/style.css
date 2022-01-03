@@ -62,8 +62,8 @@ ul {
 a {
     text-decoration: none;
 }
-.section {
-    text-align: center;
+section {
+    padding: 50px 0;
 }
 .section-title {
     text-align: center;
