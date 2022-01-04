@@ -26,11 +26,13 @@
 html {
     font-size: 15px;
     line-height: 22px;
+    height: 100%;
 }
 body {
     font-family: 'Roboto', serif;
     color: #B6B6B6;
     font-size: 1em;
+    height: 100%;
 }
 h2, h3, .uptitle {
     color: #333;
@@ -55,6 +57,7 @@ h3,
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    min-height: 100%;
 }
 ul {
     list-style: none;
@@ -85,7 +88,7 @@ hr {
     font-family: 'Montserrat', serif;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .logo,
 .menu-link {
@@ -128,7 +131,6 @@ h2 {
     display: flex;
     position: absolute;
     padding-bottom: 20px;
-    margin: 20px 300px;
 }
 .men1 {
     position: relative;
@@ -164,8 +166,9 @@ h2 {
     display: flex;
     position: relative;
     bottom: -250px;
-    right: -380px;
+    right: -80px;
     padding: 0 9px;
+    margin: 0 auto;
 }
 .social-list::before {
     list-style: none;
@@ -186,3 +189,11 @@ h2 {
     position: absolute;
 } 
 /* footer */
+footer {
+
+}
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
