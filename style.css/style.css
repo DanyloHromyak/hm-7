@@ -128,7 +128,7 @@ h2 {
 }
 /* man */
 .man li {
-    padding: 0 20px;
+    padding: 0 20px 0 0 ;
 }
 .men {
     display: flex;
@@ -142,11 +142,11 @@ h2 {
 .men1::before {
     content: '';
     background: linear-gradient(180deg, rgba(239, 139, 138, 0.8) 0%, rgba(229, 207, 130, 0.8) 100%);
-    width: 90%;
+    width: 95%;
     height: 85%;
     position: absolute;
     top: -10px;
-    left: 10px;
+    left: -10px;
     opacity: 0;
     transition: .3s;
 }
@@ -186,7 +186,7 @@ h2 {
 
 .social-link {
     display: block;
-    padding: 18px 16px;
+    padding: 18px 20px;
 }
 .social-ico {
     display: block;
@@ -209,7 +209,6 @@ input:nth-last-child(1) {
     color: white;
     font-family: 'Montserrat';
     font-weight: 700;
-    /* margin: 4px 2px; */
 }
 input:nth-last-child(2) {
     
@@ -228,6 +227,3 @@ input:nth-last-child(2) {
     justify-content: space-between;
     position: relative;
 }
-/* li.button {
-    gap: ;
-} */
